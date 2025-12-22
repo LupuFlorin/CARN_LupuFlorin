@@ -181,10 +181,6 @@ pip install torch torchvision wandb matplotlib pandas tqdm
 # Train model (requires WandB login)
 python train.py
 
-# Outputs:
-# - improved_transform_model_wandb.pth
-# - training_curves.png
-# - model_predictions.png
 ```
 
 ### Inference & Benchmarking
@@ -193,10 +189,6 @@ python train.py
 # Run comprehensive benchmarks
 python inference.py
 
-# Outputs:
-# - benchmark_results.png
-# - benchmark_results.csv
-# - Console output with speedup analysis
 ```
 
 ---
